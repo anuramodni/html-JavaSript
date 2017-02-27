@@ -1,0 +1,19 @@
+<!DOCTYPE HTML>	
+<html>
+<head>
+<title>Select a District</title>
+</head>
+<body>	
+<div>
+<h3 style='text-align:center;'>Select a Province and a District</h3><hr>
+		<div style='text-align:center;'>
+			<script type= "text/javascript" src = "province.js"></script>
+			Select a Province: <select id="province" name ="province"></select></br></br>
+			Select a District: <select name ="district" id ="district"></select></br> </br>
+		</div>
+</div>	
+<script language="javascript">
+	populateProvinces("province","district"); // first parameter is id of Province drop-down and second parameter is id of district drop-down
+</script>
+</body>
+</html>
